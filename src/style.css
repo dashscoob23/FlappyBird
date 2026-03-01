@@ -1,0 +1,33 @@
+:root {
+  --page-bg: #d7f1ff;
+  --frame: #21445f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 20% 20%, #f2fdff 0%, var(--page-bg) 55%, #bbe4ff 100%);
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+}
+
+.app-shell {
+  display: grid;
+  place-items: center;
+  width: min(94vw, 480px);
+}
+
+#game {
+  width: 100%;
+  max-height: 92vh;
+  border: 5px solid var(--frame);
+  border-radius: 14px;
+  image-rendering: auto;
+  box-shadow: 0 12px 25px rgba(18, 57, 84, 0.2);
+  background: #7ec8ff;
+}
