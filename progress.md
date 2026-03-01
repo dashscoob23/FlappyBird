@@ -13,3 +13,6 @@ Original prompt: Lets build a flappy bird webapp game.
 - Ran Playwright validation against Vite dev server; captured screenshots/state under `output/web-game-vite`.
 - Confirmed start-to-play-to-gameover flow renders on canvas and text-state hook remains available for automation.
 - TODO: Tune difficulty/pipe timing once we gather your preferred gameplay feel (easy/normal/hard).
+- Added GitHub Pages deployment workflow at `.github/workflows/deploy.yml` (trigger: push to `main`).
+- Added `vite.config.ts` with base path `/FlappyBird/` for project-site asset URLs.
+- Updated README with target live URL and deployment note.
